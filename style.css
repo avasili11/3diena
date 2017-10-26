@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Mano projektas prasideda cia*/
+
+
+body {background-color:gray;
+}
+header {background-color:black;
+}
+nav {display:block;
+	margin: 0 auto;
+	width: 80%;
+	}
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-color:white;
+    overflow: hidden;
+    width:fixed;
+}*/
+li {
+	display: inline-block;
+	font-size:16px;
+	color:white;
+	border-right: 1px solid white;
+	padding: 20px;
+}
+
+/*li {
+    display: inline-block;
+    margin: 0px 0px 0px 100px;
+    color: white;
+    width:fixed;
+    text-align: center;
+    padding: 14px 6px;
+    text-decoration: none;
+}*/
+a  {color: white;
+	text-decoration: none;
+	padding: 20px;
+}
+h1 {font-weight:bolder;
+	font-size:20px;
+}
+
+div {background-color: white;
+	margin: 0 auto;
+	width: 80%;
+}
+	/*display: block;
+	margin: 30px 170px 30px 130px;
+	width: fixed;
+	text-align: left;
+	font-size:20px;
+	font-weight: bold;
+	height: 90px;
+	padding:20px;}*/
+
+/*div:nth-child(3) {display:inline-block;
+	width:15%;
+	margin: 0px 170px 30px 130px;
+	float:left;
+}
+div:nth-last-child {
+	margin-bottom: 100px;
+}
+/*div:nth-child(4) {display:block;
+	width:50%;
+	float:right;
+}*/
+/*section {
+	width: 1000px;
+	margin: 0 auto;
+}*/
+section > div:first-child {
+	margin-bottom: 10px;
+	margin-top: 40px;
+	padding: 10px;
+}
+section > div:first-child h1 {
+	padding-left: 10px;
+	margin-top: 10px;
+} 
+section > div:first-child p {
+	padding-left: 10px;
+	margin-top:20px;
+	margin-bottom: 10px;
+}
+section > div:nth-of-type(2) {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 0;
+	padding: 10px;
+}
+section > div:nth-of-type(2) > div:nth-of-type(1) {
+	display:inline-block;
+	font-size:16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 50%;
+}
+section > div:nth-of-type(2) > div:nth-of-type(1) h1 {
+	margin-bottom:20px;
+	padding-left: 10px;
+}
+section > div:nth-of-type(2) > div:nth-of-type(1) p {
+	padding-left: 10px;
+}
+section > div:nth-of-type(2) > div:nth-of-type(2) {
+	display:inline-block;
+	font-size:16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 50%;
+}
+section > div:nth-of-type(2) > div:nth-of-type(2) h1 {
+	margin-bottom:20px;
+	padding-left: 30px;
+}
+section > div:nth-of-type(2) > div:nth-of-type(2) p {
+	padding-left: 30px;
+}
+section > div:nth-of-type(3) {
+	margin-top:20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+section > div:nth-of-type(3) h1 {
+	padding-left: 10px;
+	margin-top: 10px;
+}
+section > div:nth-of-type(3) p {
+	padding-left: 10px;
+	margin-top:20px;
+	margin-bottom: 10px;
+}
+section > div:nth-of-type(4) {
+	margin-top:20px;
+	margin-bottom: 60px;
+	padding: 10px;
+}
+section > div:nth-of-type(4) h1 {
+	padding-left: 10px;
+	margin-top: 10px;
+}
+section > div:nth-of-type(4) p {
+	padding-left: 10px;
+	margin-top:20px;
+	margin-bottom: 10px;
+}
